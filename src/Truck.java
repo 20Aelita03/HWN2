@@ -1,5 +1,6 @@
-public class Truck extends ServiceStation implements Service{
+public class Truck extends Transport implements Service{
      public Truck(String modelName,int wheelsCount){
+
          if (modelName.isBlank()|| modelName.isEmpty()){
              this.modelName = "model";
          } else {

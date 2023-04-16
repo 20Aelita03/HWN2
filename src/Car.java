@@ -1,4 +1,4 @@
-public class Car extends ServiceStation implements Service {
+public class Car extends Transport implements Service {
     public Car(String modelName,int wheelsCount){
         if (modelName.isBlank()|| modelName.isEmpty()){
             this.modelName = "model";

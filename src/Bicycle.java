@@ -1,4 +1,5 @@
-public class Bicycle extends ServiceStation implements Service{
+public class Bicycle extends Transport implements Service{
+
     public Bicycle(String modelName,int wheelsCount){
         if (modelName.isBlank()|| modelName.isEmpty()){
             this.modelName = "model";
